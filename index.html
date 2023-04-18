@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--- Meta Data --->
+    <meta charset="utf-8" />
+    <meta name="description" content="Cold or hot user input, with JavaScript" />
+    <meta name="keywords" content="Immaculata, ics2o" />
+    <meta name="author" content="Remy Skelton" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--- Favicon --->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png" />
+    <link rel="manifest" href="./fav_index/site.webmanifest" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_orange.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Cold or hot user input, with JavaScript</title>
+  </head>
+  <body>
+      </header>
+              <h1>Is it hot or cold outside?</h1>
+              <h5>Enter the temperature outside</h5>
+    <!--- Script --->
+    <script src="./js/script.js"></script>
+    <!--- User Guess --->
+      <form action="javascript:enterClicked()">
+        <label for="userTemp">Enter the temperature</label>
+        <input type="number" id="user-temp" placeholder="ex.10°" step="1" min="-50" max="50"><br><br>
+        <input type="submit" value="Get Results">
+      </form>
+    </p>
+     <!-- Create a space where the user information will be displayed -->
+    <div id="result"></div>
+    <!-- image on this page -->
+    <center>
+    <img src="./images/HotCold.jpg" width="300" height="220" alt="HotCold">
+    </center>
+  </body>
+</html>
